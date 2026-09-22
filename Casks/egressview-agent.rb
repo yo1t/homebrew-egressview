@@ -2,8 +2,7 @@ cask "egressview-agent" do
   version "0.5.83"
   sha256 "0d51ef4bdf6167bcfcd6a4dfabcb8704ab60392642f25da9c75def96b5cd23a4"
 
-  url "https://dl.egressview.com/macos/egressview-agent-#{version}.pkg",
-      verified: "dl.egressview.com/macos/"
+  url "https://dl.egressview.com/macos/egressview-agent-#{version}.pkg"
   name "EgressView Agent"
   desc "Shows which application is talking to where"
   homepage "https://github.com/yo1t/egressview"
