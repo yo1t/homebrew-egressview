@@ -16,6 +16,9 @@ cask "egressview-agent" do
     end
   end
 
+  # The agent checks for signed releases itself and offers the installer, so
+  # an agent updated that way is not reinstalled by a plain `brew upgrade`.
+  auto_updates true
   # Apple silicon only, and macOS 13 or later: the app's own
   # LSMinimumSystemVersion, not a guess.
   depends_on arch: :arm64
