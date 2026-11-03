@@ -1,6 +1,6 @@
 cask "egressview-agent" do
-  version "0.5.137"
-  sha256 "acef6914a7db36b75e08abdc2bf26bd0574be71cf758d9d041abf5d09882afbb"
+  version "0.5.138"
+  sha256 "a0314ee1da4d78395eb455118016f3ed638225c74c21e705f4c139360bfcf913"
 
   url "https://dl.egressview.com/macos/egressview-agent-#{version}.pkg"
   name "EgressView Agent"
